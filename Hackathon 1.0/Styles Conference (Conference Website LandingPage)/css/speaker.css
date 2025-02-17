@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  h1, h2, h5 {
+    color: #333;
+  }
+  
+  /* Speaker Section */
+  .row-alt {
+    background: #007BFF;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .row-alt h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .row-alt p {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  /* Speaker Card */
+  .speaker {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .col-2-3 {
+    flex: 2;
+  }
+  
+  .col-1-3 {
+    flex: 1;
+  }
+  
+  .speaker h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #007BFF;
+  }
+  
+  .speaker h5 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  .speaker p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .speaker-info {
+    text-align: center;
+  }
+  
+  .speaker-info img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .speaker-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .speaker-info ul li {
+    margin-bottom: 5px;
+  }
+  
+  .speaker-info ul li a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .speaker-info ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* footer */
+.primary-footer {
+    color: #648880;
+    font-size: 18px;
+    padding-bottom: 44px;
+    padding-top: 44px;
+}
